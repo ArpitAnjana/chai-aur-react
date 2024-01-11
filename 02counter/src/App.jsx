@@ -6,25 +6,23 @@ import './App.css'
 function App() {
   
   // let counter = 0;
-  let [counter, setCounter] = useState(0);
   //counter variable he , setCounter function he 
-  const addit = () => {
-    counter = counter+1;
+  let [counter, setCounter] = useState(0);
 
-    if(counter>20){
-      counter = 20;
+  const addit = () => {
+    if(counter<20){
+      counter = counter + 1;
+      setCounter(counter)
+      
     }
-      setCounter(counter);
-      console.log(counter)
   }
 
   const deductValue = () => {
-    counter = counter - 1;
-  
-    if(counter<0){
-      counter = 0;
+    if(counter>0){
+      counter = counter - 1;
+      setCounter(counter)
+      
     }
-    console.log(counter)
   }
   return (
     <>
