@@ -8,3 +8,9 @@ this application works as:
 # Deployed on vercel : https://counter-app-pearl-one.vercel.app/
 
 https://github.com/ArpitAnjana/chai-aur-react/assets/90887065/192c32f3-d5bf-4139-b94c-f1a092830a1a
+
+
+# CARD USING TAILWIND & PROPS:
+
+
+<img width="650" alt="Screenshot 2024-01-18 at 8 41 13 PM" src="https://github.com/ArpitAnjana/chai-aur-react/assets/90887065/b52e478b-d359-4248-b334-7f7f6e046775">
