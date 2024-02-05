@@ -12,15 +12,15 @@ function App() {
   const addit = () => {
     if(counter<20){
       counter = counter + 1;
-      setCounter(counter)
+      setCounter(counter) // using newly updated value
       
     }
   }
 
   const deductValue = () => {
-    if(counter>0){
-      counter = counter - 1;
-      setCounter(counter)
+    if(counter>0){//using arrow function using previous updated value
+      
+      setCounter(prevCounter => prevCounter - 1)
       
     }
   }
